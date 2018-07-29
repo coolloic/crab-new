@@ -96,8 +96,11 @@
   background-repeat no-repeat
   background-position center center
   border 1px solid #ebebeb
-  margin 5px
+  margin 0px
+  cursor pointer
 .slick-slide > div
   display flex
   min-height 300px
+.blueimp-gallery>.next
+  right 70px!important
 </style>

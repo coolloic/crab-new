@@ -24,7 +24,6 @@ export default {
 <style lang="styl" scoped>
 @import '../assets/stylus/colors.styl'
 .footer
-  margin-top 40px
   color #fff
   background-color black
   padding 15px 0

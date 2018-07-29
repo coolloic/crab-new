@@ -4,26 +4,34 @@
       router-link(to="/") Home
       router-link(to="/about") About
     router-view
+    Footer
 </template>
-
+<script>
+import Footer from '@/components/Footer'
+export default{
+  components:{
+    Footer
+  }
+}
+</script>
 <style lang="styl">
 @import '/assets/stylus/colors.styl'
-@import '/assets/stylus/mixins.styl'
-h1,h2,h3,h4,h5,p,label
+body
+  background-color #f0f3ef
+body,h1,h2,h3,h4,h5,p,label,a
   padding 0
   margin 0
+  font-family Roboto, Helvetica, Arial, sans-serif
 h1
   font-size 37px
   @media sm
     font-size 62px
 section
-  padding 30px 0
+  padding 30px 0 0
+  max-width 100vw
+  overflow hidden
   @media lg
     padding 50px 0
-  &:nth-child(n)
-    background-color off-white
-  &:nth-child(2n)
-    background-color white
 hr.bold
   border-top 2px solid #000
   margin 2rem 0
@@ -49,6 +57,7 @@ a
   cursor pointer
   &:hover,&:focus,&:visited
     text-decoration none
+    color white
   &.external
     color primary-color
     background-color white
@@ -120,5 +129,8 @@ a
     right -2em
     font-size 36px
     cursor pointer
-
+.slick-dots
+  bottom -30px
+.slick-list
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 </style>

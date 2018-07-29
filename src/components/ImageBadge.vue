@@ -7,7 +7,7 @@
       p {{itb.desc}}
       a.button.red {{more}}
     .recipe-figure
-      .recipe-figure__img(:style="{backgroundImage: 'url(' + itb.img + ')'}")
+      .recipe-figure__img(:style="{backgroundImage: 'url('+itb.img+')'}")
   .recipe(:class="{'img-right': isImageRight,'img-left':isImageLeft}" v-else="isImageRight || isImageTop")
     .recipe-figure
       .recipe-figure__img(:style="{backgroundImage: 'url(' + itb.img + ')'}")
@@ -75,7 +75,9 @@ export default{
     background-color #fff
     box-shadow 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15)
     margin 0 4%
-    padding 30px
+    padding 30px 15px
+    @media md
+      padding 30px
     margin-top -30px
     z-index 1
     border-radius 5px
