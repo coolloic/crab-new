@@ -1,8 +1,8 @@
 <template lang="pug">
   #app
-    .nav
-      router-link(to="/") Home
-      router-link(to="/about") About
+    //- .nav
+      //- router-link(to="/") Home
+      //- router-link(to="/about") About
     router-view
     Footer
 </template>
@@ -27,7 +27,7 @@ h1
   @media sm
     font-size 62px
 section
-  padding 30px 0 0
+  padding 15px 0
   max-width 100vw
   overflow hidden
   @media lg

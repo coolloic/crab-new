@@ -15,8 +15,8 @@
     slidesToScroll: 1,
     dots: true,
     arrows: false,
-    autoplay: true,
-    speed: 600,
+    autoplay: false,
+    speed: 100000,
     prevArrow: '<div class="prev">&#10094;</div>',
     nextArrow: '<div class="next">&#10095;</div>'
   }

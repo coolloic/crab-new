@@ -40,7 +40,7 @@ export default{
     box-shadow 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)
     border-radius 5px
     @media md
-      padding-bottom 40%
+      padding-bottom 56.25%
     cursor pointer
     &__img
       position absolute
@@ -112,6 +112,7 @@ export default{
         vertical-align center
         width 50%
         border-radius 5px 0 0 5px
+        padding-bottom 40%
       .recipe-caption
         display table-cell
         vertical-align middle

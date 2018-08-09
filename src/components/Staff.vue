@@ -15,6 +15,9 @@ export default{
 @import '../assets/stylus/colors.styl'
 .staff
   border-radius 5px
+  background-color white
+  margin-bottom 15px
+  overflow hidden
   box-shadow 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)
   &-avatar
     position absolute
