@@ -29,7 +29,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="styl">
 @import '../assets/stylus/colors.styl'
-@import '../assets/stylus/mixins.styl'
 .banner
   color primary-color
   position relative

@@ -127,10 +127,10 @@ function showSlides(n) {
     ]
   });
   $('.single-responsive').slick({
-    dots: true,
+    dots: false,
     speed: 300,
     slidesToShow: 1,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 600,
     arrows: false,
     fade: true,
     autoplay: true,

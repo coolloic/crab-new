@@ -13,9 +13,9 @@
     infinite: false,
     slidesToShow:  3,
     slidesToScroll: 1,
-    dots: true,
+    dots: false,
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     speed: 600,
     prevArrow: '<div class="prev">&#10094;</div>',
     nextArrow: '<div class="next">&#10095;</div>'
@@ -96,8 +96,11 @@
   background-repeat no-repeat
   background-position center center
   border 1px solid #ebebeb
-  margin 5px
+  margin 0px
+  cursor pointer
 .slick-slide > div
   display flex
   min-height 300px
+.blueimp-gallery>.next
+  right 70px!important
 </style>
