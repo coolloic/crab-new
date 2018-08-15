@@ -8,26 +8,26 @@
           Ingredients(:ingredients="ingredients")
         .col-md-8.col-sm-12
           Progress(:steps="steps")
-          //- Procedure(:procedures="procedures")
-    //- section: .container
-    //-   h2.headline 专业团队
-    //-   .row
-    //-     each val in [1,2,3]
-    //-       .col-lg-4: Staff(:staff="staff")
+          Procedure(:procedures="procedures")
+    section: .container
+      h2.headline 专业团队
+      .row
+        each val in [1,2,3]
+          .col-lg-4: Staff(:staff="staff")
     section: .container
       h2.headline 菜品品鉴
-      //- SlickSlider(:products="products")
+      SlickSlider(:products="products")
       SlickSliderGallery(:images="images")
-    //- section: .container
-    //-   h2.headline 最新资讯
-    //-   .row
-    //-     each val in [1,2,3]
-    //-       .col-lg-4: BlogTile(:blog="blog")
+    section: .container
+      h2.headline 最新资讯
+      .row
+        each val in [1,2,3]
+          .col-lg-4: BlogTile(:blog="blog")
     section: .container
       h2.headline 盘海食谱
-    //-   ImageBadge(:itb="imageBadge" :isImageTop="true")
-    //- section: .container
-    //-   ImageBadge(:itb="imageBadge" :isImageLeft="true")
+      ImageBadge(:itb="imageBadge" :isImageTop="true")
+    section: .container
+      ImageBadge(:itb="imageBadge" :isImageLeft="true")
     section: .container
       ImageBadge(:itb="imageBadge" :isImageRight="true")
 </template>

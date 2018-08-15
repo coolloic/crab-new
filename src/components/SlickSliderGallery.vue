@@ -13,10 +13,10 @@
     infinite: false,
     slidesToShow:  3,
     slidesToScroll: 1,
-    dots: true,
+    dots: false,
     arrows: false,
     autoplay: false,
-    speed: 100000,
+    speed: 600,
     prevArrow: '<div class="prev">&#10094;</div>',
     nextArrow: '<div class="next">&#10095;</div>'
   }
