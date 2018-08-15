@@ -8,7 +8,6 @@
           Ingredients(:ingredients="ingredients")
         .col-md-8.col-sm-12
           Progress(:steps="steps")
-          Procedure(:procedures="procedures")
     section: .container
       h2.headline 专业团队
       .row
