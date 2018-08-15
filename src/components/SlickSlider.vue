@@ -93,7 +93,7 @@ export default {
   //   handleLazeLoadError(event, slick, image, imageSource) {
   //       console.log('handleLazeLoadError', event, slick, image, imageSource);
   //   }
-  // }
+  }
 }
 </script>
 <style scoped lang="styl">
